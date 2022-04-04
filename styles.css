@@ -1,0 +1,63 @@
+.cuerpo-pagina {
+  background-color: #83c5be;
+}
+.titulo {
+  text-align: center;
+}
+.formulario,
+.contenedor,
+.contenido-tarjeta,
+.pie-tarjeta {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.caja-texto {
+  border: 3px solid #006d77;
+  border-radius: 10px;
+  font-size: 15px;
+  height: 40px;
+  margin-right: 10px;
+  outline: none;
+  padding-left: 10px;
+  width: 250px;
+}
+.boton {
+  background-color: #006d77;
+  color: #ffffff;
+  height: 40px;
+  width: 40px;
+}
+.contenedor {
+  flex-wrap: wrap;
+  margin-top: 3%;
+}
+.tarjeta {
+  border-radius: 30px;
+  height: 600px;
+  margin: 10px;
+  width: 257px;
+}
+.encabezado-tarjeta {
+  height: 50%;
+}
+.encabezado-tarjeta .img {
+  border-radius: 30px 30px 0px 0px;
+  height: 300px;
+  width: 257px;
+}
+.contenido-tarjeta {
+  background-color: #edf6f9;
+  height: 40%;
+  flex-direction: column;
+}
+.pie-tarjeta {
+  background-color: #006d77;
+  border-radius: 0px 0px 30px 30px;
+  height: 10%;
+}
+.pie-tarjeta .enlace {
+  color: #ffffff;
+  text-decoration: none;
+}
